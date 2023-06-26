@@ -3,7 +3,7 @@
 Responsive website design example, created for the Tea Cozy project from Codecademy.
 ```
 
-Code used:
+Languages used:
 - HTML
 - CSS
 
