@@ -12,6 +12,7 @@ a {
 
 main {
     top: 69px;
+    width: 100%;
     text-align: center;
 }
 
@@ -103,6 +104,7 @@ header {
 
 .locations {
     max-width: 1200px;
+    width: auto;
     height: auto;
     margin-top: 40px;
     margin-left: auto;
@@ -113,14 +115,16 @@ header {
 .locations .background-img {
     opacity: 0.6;
     max-width: 100%;
-    height: 500px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
 }
 
 .locations-words{
     align-items: center;
-    width: 980px;
+    width: 81.7%;
     height: 50.28%;
-    top: 50%;
+    top: 30%;
     left: 10%;
     position: absolute;
     text-align: center;
@@ -128,6 +132,7 @@ header {
 
 .locations-words h2 {
     margin-bottom: 15px;
+    max-width: 100%;
 }
 
 .location-places-container {
@@ -143,11 +148,12 @@ header {
     opacity: 1;
     width: 300px;
     line-height: 3.2rem;
+    margin-bottom: 1.4rem;
 }
 
 .contact {
     margin-top: 10px;
-    top: 300px;
+    top: 30px;
     display: block;
     position: relative;
     height: 200px;
@@ -158,7 +164,7 @@ header {
 .footer {
     padding-left: 20px;
     text-align: left;
-    top: 300px;
+    top: 30px;
     padding-top: 5px;
     position: relative;
     display: block;
@@ -168,5 +174,15 @@ header {
 @supports (scroll-margin-top: 0) {
     * {
         scroll-margin-top: 69px;
+    }
+}
+
+@media screen and (max-width:749px) {
+    .locations-words{
+        top: 5%;
+    }
+    h4 {
+        font-size: 80%;
+        line-height: 95%;
     }
 }
