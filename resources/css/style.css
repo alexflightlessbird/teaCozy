@@ -38,6 +38,7 @@ header {
 
 .heading-container .nav {
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .mission {
@@ -184,5 +185,23 @@ header {
     h4 {
         font-size: 80%;
         line-height: 95%;
+    }
+}
+
+@media screen and (max-width: 523px) {
+    .heading-container .nav {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .heading-container .nav {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .heading-container .nav {
+        font-size: 70%;
     }
 }
